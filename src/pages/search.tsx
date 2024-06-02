@@ -10,4 +10,20 @@ export const getStaticProps: GetStaticProps<SearchPageProps> = async () => {
   return { props: { site } };
 };
 
+import React from 'react';
+
+const Search: React.FC = () => {
+  return (
+    <div>
+      {/* Otros elementos del componente de búsqueda */}
+      <a href='https://cafecito.app/nicoproducto' rel='noopener' target='_blank'>
+        <img srcSet='https://cdn.cafecito.app/imgs/buttons/button_1.png 1x, https://cdn.cafecito.app/imgs/buttons/button_1_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_1_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_1.png' alt='Invitame un café en cafecito.app' />
+      </a>
+    </div>
+  );
+};
+
+export default Search;
+
+
 export default SearchLayout;
