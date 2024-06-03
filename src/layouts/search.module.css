@@ -35,3 +35,23 @@
 .loading {
   @apply max-w-prose mx-auto px-10 flex justify-center -mt-8 mb-4;
 }
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Hace que el contenedor ocupe toda la altura de la pantalla */
+  position: relative;
+}
+
+.searchBar {
+  /* Estilos para tu barra de búsqueda */
+}
+
+.cafecitoButton {
+  position: fixed;
+  bottom: 20px; /* Ajusta esto según sea necesario */
+  left: 50%;
+  transform: translateX(-50%);
+}
